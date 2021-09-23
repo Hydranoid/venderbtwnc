@@ -125,15 +125,20 @@
 
   .fnamardeg{
 
-
-    background-color: #fac756;
-    background: linear-gradient(0deg, #fac756 75%, #e96058 99%);
-  }
+    /* background: linear-gradient(0deg, #fac756 75%, #e96058 99%); */
+    background: linear-gradient(0deg, #ffffff 2%, #fac756 7%);
+    }
 
   .fnrosadeg {
-    background: linear-gradient(0deg, #e96058 77%, #61bcad 100%);
+    /* background: linear-gradient(0deg, #e96058 77%, #61bcad 100%); */
+    background: linear-gradient(0deg, #fac756 2%, #e96058 7%);
   }
 
+
+  .fnblancodeg {
+    background-color: white;
+
+  }
   .fnrosacard {
     background-color: #D7564F;
   }
