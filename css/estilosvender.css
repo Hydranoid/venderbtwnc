@@ -5,6 +5,30 @@
     
 }
 
+.fa-check-circle {
+    color: #7a7a7a;
+    margin-right: 10px;
+}
+
+
+
+.letrach {
+
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.letrach-card {
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.letrach-cardfoot {
+
+  font-size: 12px;
+  font-weight: 600;
+}
 .blanco {
 
     color: #ffff;
@@ -21,7 +45,7 @@
 
     font-size: 45px;
     font-weight: 600;
-    color: #2c374f;
+    
 }
 
 .letrabotones {
@@ -56,7 +80,25 @@
     
   }
 
-  .azulbtwn {
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2c374f' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+
+   .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2c374f' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  }
+
+  .carousel{
+    margin-top: 50px;
+  }
+  .carousel-inner{
+    height: 100px;
+  }
+  .carousel-caption{
+    color: #2c374f;
+    top: 50%;
+  }
+.azulbtwn {
 
     color:#2c374f;
   }
@@ -81,8 +123,18 @@
     background-color: #2c374f;
   }
 
+  .fnamardeg{
+
+
+    background-color: #fac756;
+  }
+
   .fnrosadeg {
-    background: linear-gradient(0deg, #e96058 77%, #ffffff 100%);
+    background: linear-gradient(0deg, #e96058 77%, #61bcad 100%);
+  }
+
+  .fnrosacard {
+    background-color: #D7564F;
   }
 
   .fnblanco {
@@ -102,3 +154,24 @@
   .imgfooter {
       width: 50%;
   }
+
+  .card-title{
+
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .card {
+    border: none;
+    border-radius: 0%;
+    background-color: none;
+  }
+
+  .card-header:first-child {
+    border-radius: 0%;
+}
+
+.fnamar-card {
+
+  background-color: #E6AE2B;
+}
