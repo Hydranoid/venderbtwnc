@@ -135,6 +135,12 @@
   }
 
 
+  .listafoo {
+
+    display: flex;
+  justify-content: center;
+  }
+
   .fnblancodeg {
     background-color: white;
 
