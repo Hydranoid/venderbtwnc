@@ -138,6 +138,14 @@
   
 
 }
+.lineas{
+  font-size: 48px; font-weight: 900; color: red;padding: 5px;
+}
+.txtmarketpl{
+  font-size: 29px;
+}
+
+
 @media only screen and (max-width: 1290px) {
   .headerimg{
     width:290px; 
@@ -197,6 +205,7 @@
 
 
 }
+
 }
 @media only screen and (max-width:800px){
   .headerimg{
@@ -209,6 +218,13 @@
   
   }
   @media only screen and (max-width:700px){
+    .lineas{
+      font-size: 18px; font-weight: 900;
+
+    }
+    .txtmarketpl{
+      font-size: 17px;
+    }
   .headerimg{
     width:180px; 
     right:0px;
@@ -225,8 +241,9 @@
 }
 @media only screen and (max-width: 540px){
   .headerimg{
-    position: relative;
-    width:360px; 
+    position:absolute;
+    left: 0;
+    width:300px; 
 
     background-color: #ffffff00;
 
