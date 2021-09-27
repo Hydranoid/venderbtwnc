@@ -24,6 +24,17 @@
   
 
 }
+.astyle{
+  font-style: none;
+  color:white;
+  text-decoration: none;
+}
+.astyle:hover{
+  font-style: none;
+  color:white;
+  text-decoration: none;
+
+}
 .borde{
   border-bottom: 10px solid white; top: 125px;
     
